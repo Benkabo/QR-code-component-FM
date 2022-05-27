@@ -53,19 +53,25 @@ img {
   width: 260px;
   text-align: center;
 }
-.attribution {
-  color: var(--Darkblue);
-  font-size: 11px;
-  text-align: center;
+footer{
   position: absolute;
   bottom: 0;
 }
 
+.attribution {
+  color: var(--Darkblue);
+  font-size: 12px;
+  text-align: center;
+}
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media (width=375px) {
-  body {
+
+@media only screen and (max-width: 600px) {
+    body {
     width: 375px;
+  }
+  footer {
+    margin-top: 20px;
   }
 }
